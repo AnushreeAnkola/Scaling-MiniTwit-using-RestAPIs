@@ -1,0 +1,73 @@
+INSERT INTO user (username, email, pw_hash)
+VALUES
+('bhavika', 'bhavika@gmail.com', 'pbkdf2:sha256:50000$C62rhoRQ$0921c91051b4f6bc5dd3d3f4ee4cebd88abf98e516377410f5427147876d60d5'),
+('Murphy', 'Murphy@gmail.com', 'pbkdf2:sha256:50000$tqwYNllR$4433cf0a607e8a4e9caee9d3eb2b48bb816afd19fa5829e46d493b288da590a0'),
+('Patterson', 'patterson@gmail.com', 'pbkdf2:sha256:50000$HlVUm5gc$ebabd22cc344ffe00fdc971a8e12cd81254f98a26d8fcc8a01d4f86353075492'),
+('Jeff', 'jeff@gmail.com', 'pbkdf2:sha256:50000$SZqkIzWW$a19cf465a51ac44d90d2c3601618287784a897c74cf4d122b4bfe1c8cf1e8f61'),
+('Marry', 'marry@gmail.com', 'pbkdf2:sha256:50000$Syhrd2hT$015596b839198e916a18a63d09aa931dec6696b897d65badaf955623022edcd7'),
+('Diane', 'Diane@gmail.com', 'pbkdf2:sha256:50000$hX5kFxqt$b208a6e4e462f9f4c55df4deccafcf9611f0433a85bd9f546ba1b49ba51d9b56'),
+('Philip', 'Philip@gmail.com', 'pbkdf2:sha256:50000$UnC2ICP5$759642b3232ccfc7da1968511df874930c6d7619e8b83ca0d8a244760de2d357'),
+('Binh', 'binh@gmail.com', 'pbkdf2:sha256:50000$Pp3hkYG7$ae917d013d701ac39ec36d5c76086b4a448cccd280342a9ec9cadbded137bc5a'),
+('Riya', 'Riya@gmail.com', 'pbkdf2:sha256:50000$QOWkVg84$f9b3c34bb07b8d9211eb9f36def1a9e6abde7ec17f4f032715e39f8ca6771c1e'),
+('piyush', 'piyush@gmail.com', 'pbkdf2:sha256:50000$3nT2sLPN$4b74198785d4670ce4e9db418b32c869b6a3d3f9d222b499cb9b36769125c080'),
+('alpesh', 'alpesh@gmail.com', 'pbkdf2:sha256:50000$yzgFxd7V$2ca2756f12bfe855ef796624827c1f3c21eb11564dff4416aeb0bd83028944b2'),
+('chinmayee', 'chinmayee@gmail.com', 'pbkdf2:sha256:50000$C40DyHa0$33c2776339d31131794d4c7046b879c7c94c749764cf3ad5b122aa48a4da2d40'),
+('jack', 'jack@gmail.com', 'pbkdf2:sha256:50000$tQjZ2Rvx$a428218cdc1cab182dda9965d260a1ba517bf13f338019930756aa78fee807f1'),
+('johny', 'johny@gmail.com', 'pbkdf2:sha256:50000$zCtDhVS5$9602ac553a826745c2d7d0da696e5e5acd1faaa3f6ce66d28858eb39c20ec4d6'),
+('abc', 'abc@gmail.com', 'pbkdf2:sha256:50000$kHaxRTVT$0f22f662cc5d1986d509636c32c6737b2102dc68403c0452fcc3c19fbee35f20'),
+('xyz', 'xyz@gmail.com', 'pbkdf2:sha256:50000$Q3rOrefL$0b0e20dab9072f9dd0bb501ff7400ec9a2087d65f0fa5a189d348cb39e89116b'),
+('rock', 'rock@gmail.com', 'pbkdf2:sha256:50000$fMTkb0RM$bda0bd3af23789aa906ec7dd862fd941b43654553bf5741d0dd55c138648a76b'),
+('james', 'james@gmail.com', 'pbkdf2:sha256:50000$Z0zjDSEY$8c747c8f5ee5f674249afd9d1d9cccb65798d78a952d8240ed24839cd954eeba'),
+('mark', 'mark@gmail.com', 'pbkdf2:sha256:50000$LT937HmE$08fdd8324d390381316952b37605d2e3a5ce774a1ac6864a6d74705529db2450'),
+('marry', 'marry@gmail.com', 'pbkdf2:sha256:50000$UqFM4B5K$7d8024fa71fa58700d6c275f34d86dbcc0cc0795803c9890601438890298752f');
+
+
+
+INSERT INTO follower (who_id, whom_id)
+VALUES
+	(1, 11),
+	(2, 19),
+	(11, 20),
+	(10, 3),
+	(1, 5),
+	(4, 18),
+	(15, 14),
+	(11, 15),
+	(11, 12),
+	(13, 11),
+	(12, 2),
+	(16, 7),
+	(17, 2),
+	(13, 2),
+	(14, 5),
+	(15, 11),
+	(1, 19),
+	(16, 11),
+	(19, 8),
+	(9, 7),
+	(8, 14),
+	(16, 12),
+	(17, 3);
+
+INSERT INTO message (author_id, text, pub_date)
+VALUES
+	(1, 'hello', 1518506778),
+	(2, 'hell', 1518420378),
+	(3, 'te amo', 1518445578),
+	(4, 'hello', 1518359178),
+	(5, 'tweet', 1518251178),
+	(6, 'hellohere', 1518286938),
+	(7, 'mytweet', 1518200538),
+	(8, 'hel', 1518173598),
+	(9, 'hii', 1518173598),
+	(10, 'elsa', 1518087198),
+	(11, 'omg', 1517988089),
+	(12, 'omg', 1517935632),
+	(13, 'lol', 1517935632),
+	(14, 'yesss', 1517887392),
+	(15, 'bye', 1517887392),
+	(16, 'morning', 1517808741),
+	(17, 'evening', 1517719341),
+	(18, 'hell', 1517628744),
+	(19, 'night', 1517628744),
+	(20, 'hola', 1517539404);

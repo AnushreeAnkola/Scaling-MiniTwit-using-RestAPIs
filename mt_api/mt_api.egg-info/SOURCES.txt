@@ -1,0 +1,11 @@
+MANIFEST.in
+README
+setup.cfg
+mt_api/__init__.py
+mt_api/mt_api.py
+mt_api/schema.sql
+mt_api.egg-info/PKG-INFO
+mt_api.egg-info/SOURCES.txt
+mt_api.egg-info/dependency_links.txt
+mt_api.egg-info/requires.txt
+mt_api.egg-info/top_level.txt
